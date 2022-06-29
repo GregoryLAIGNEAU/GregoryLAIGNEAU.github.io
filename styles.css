@@ -1,0 +1,266 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    padding: 6px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 48px;
+    padding: 0 4px 0 32px;
+}
+
+.menu {
+    display: flex;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.menu a {
+    color: #000000DE;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu li {
+    padding: 0 0 0 15px;
+}
+
+.menu li:last-child {
+    padding-right: 15px;
+}
+
+.google-apps-container {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.google-apps-container a {
+    padding: 8px;
+    height: 40px;
+}
+
+.google-apps-container a:hover {
+    height: 40px;
+    background-color: #70757a1c;
+    border-radius: 50%;
+}
+
+.google-apps {
+    height: 24px;
+    fill: #5f6368;
+}
+
+.buttonsignin {
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    color: white;
+    background-color: #1a73e8;
+    padding: 9px 23px;
+    margin: 0 8px;
+    min-width: 96px;
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 290px;
+}
+
+.main-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    width: 100%;
+    padding: 20px;
+}
+
+.main-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0 0;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    width: 638px;
+    max-width: 584px;
+}
+
+.input:hover {
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+
+.magnifying-glass-container {
+    display: flex;
+    align-items: center;
+    width: 33x;
+    height: 44px;
+    padding: 0 13px 0 0;
+}
+
+.magnifying-glass {
+    width: 20px;
+    fill: #9aa0a6;
+}
+
+input[type="search"] {
+    width: 487px;
+    height: 34px;
+    border: none;
+    outline: none;
+}
+
+.mic-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 44px;
+    padding: 0 8px;
+}
+
+.main-button-container {
+    padding: 18px 0 0;
+}
+
+.main-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    box-shadow: 0 0 2px 1px rgb(192, 185, 185);
+}
+
+.main-language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    height: 407px;
+}
+
+.language {
+    height: 28px;
+    padding: 0 0 24px;
+}
+
+.language a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+.footer-one {
+    color: #70757a;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 46px;
+}
+
+.footer-two a {
+    color: #70757a;
+    text-decoration: none;
+}
+
+.footer-two a:hover {
+    color: #70757a;
+    text-decoration: underline;
+}
+
+.footer-ul-left {
+    display: flex;
+}
+
+.footer-ul-right {
+    display: flex;
+}
+
+.footer-two-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-two-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-two-left ul li {
+    padding: 15px;
+}
+
+.footer-two-right ul li {
+    padding: 15px;
+}
+
+@media (max-width: 1040px) {
+    .footer-two {
+        height: 92px;
+        justify-content: center;
+        padding: 0 15px;
+    }
+}
